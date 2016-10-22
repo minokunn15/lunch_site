@@ -1,0 +1,124 @@
+#main{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+p {
+    color: black;
+}
+
+#detail h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#detail img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+div.articlebody{
+    border-top: dotted;
+    border-top-color: black;
+}
+
+.articlebody h5{
+    font-size:14px;
+    margin-bottom: 10px;
+}
+
+.articlebody p{
+    margin-bottom: 10px;
+    line-height: 200%;
+}
+
+#main .round {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 4px;
+    padding: 10px;
+    text-align:center;
+    background-color: firebrick;
+    color: white;
+    font-weight: bold;
+}
+
+.favorite{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+button.favoritebutton{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:50px;
+    font-size:14px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 4px;
+    padding: 10px;
+    text-align:center;
+    background-color: firebrick;
+    color: white;
+    font-weight: bold;
+}
+
+.storeinfo{
+    width:65%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    float:left;
+}
+
+.storeinfo h2{
+    text-align: center;
+}
+
+div.storename{
+    text-align: center;
+}
+
+.review{
+    width:30%;
+    float:right;
+}
+
+.wrapper:before,.wrapper:after {
+    content: "";
+    display: table;
+}
+
+.wrapper:after {
+    clear: both;
+}
+
+button.reviewbutton{
+    height:38px;
+}
+
+.wrapper{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.storename p{
+    color: black;
+    display: inline-block;
+}
+
+section h1{
+    font-size:25px;
+    text-align: center;
+    background-color: coral;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

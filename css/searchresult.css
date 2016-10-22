@@ -1,0 +1,119 @@
+#main{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#main h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main span{
+    color:red;
+}
+
+.resultcount{
+    margin-bottom: 10px;
+}
+
+.resultcount p{
+    text-align: center;
+    color: black;
+}
+
+.articleimg{
+    height:100px;
+    width:100px;
+    float:left;
+}
+
+.wrapper-right{
+    height:100px;
+    width:250px;
+    float:right;
+}
+
+.wrapper:before,.wrapper:after{
+    content: "";
+    display: table;
+}
+ 
+.wrapper:after{
+    clear: both;
+}
+
+.wrapper{
+    margin-top:20px;
+    margin-bottom:10px;
+    padding-top: 10px;
+    border-top-style: dotted;
+    border-top-color: black;
+    border-top-width: 1px;
+}
+
+.title h3{
+    text-align:center;
+    font-size:14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.storename h3{
+    text-align: center;
+    border-color: black;
+}
+
+#pagenation h5{
+    text-align: center;
+}
+
+.selection{
+    display: none;
+}
+
+#page_1{
+    display: block;
+}
+
+h5{
+    color: black;
+}
+
+#pagenation{
+    background-color: ghostwhite;
+}
+
+.pagination-holder div {
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+ul.pageNav01 {
+	margin: 0 0 10px;
+	padding: 12px;
+	text-align: center;
+}
+
+ul.pageNav01 li {
+	display: inline-block;
+	margin: 0 1px;
+	padding: 0;
+}
+
+ul.pageNav01 li span,
+ul.pageNav01 li a {
+	display: inline-block;
+	padding: 1px 8px;
+	background: #fff;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+ul.pageNav01 li a:hover {
+	background: #efefef;
+}

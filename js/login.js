@@ -1,0 +1,9 @@
+/*メールアドレスとパスワードが入ったらhiddenにも入れてあげる*/
+$(function(){
+    $(".newbutton").click(function(){
+    	console.log("aaa");
+        $(".loginformWadd").val($(".loginformadd").val());
+        $(".loginformWpas").val($(".loginformpas").val());
+        $(".writerLogin").submit();
+    });
+})

@@ -1,0 +1,11 @@
+<Context path="/tyoushoku" reloadable="true" >
+<!-- Extra info begin -->
+<Resource name="jdbc/tyoushoku"
+  auth="Container"
+  type="javax.sql.DataSource"
+  username="tyoushoku" password="password"
+ driverClassName="oracle.jdbc.driver.OracleDriver"
+  url="jdbc:oracle:thin:@localhost:1521:XE"
+  maxActive="20" maxWait="-1" maxIdle="10" />
+<!-- Extra info end -->
+</Context>

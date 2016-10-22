@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/</rootDir>
+    <workDir>work</workDir>
+    <exportSource>true</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>D:\Users\01014554\Desktop\war\tyoushoku.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/tyoushoku</webPath>
+</tomcatProjectProperties>

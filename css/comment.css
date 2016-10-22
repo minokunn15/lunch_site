@@ -1,0 +1,145 @@
+h2{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    color:black
+}
+
+button#commentbutton {
+    width:350px;
+    display: block;
+    margin-left: 10px;;
+    margin-right: 10px;
+    margin-top: 20px;
+    height:50px;
+    font-size:14px;
+    background-color: firebrick;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#comment_submit ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+    width:100px;
+    float: left;
+    line-height: 22px;
+}
+
+#comment_submit ul {
+    width: 370px;
+    margin 0 auto;
+}
+
+textarea{
+    width:235px;
+    height:40px;
+}
+
+#star i{
+    color: gold;
+    font-size: 16px;
+}
+
+#starcount i{
+    color: gold;
+    font-size: 16px;
+}
+
+#starcount span {
+    font-size: 14px;
+}
+
+span{
+    color: black;
+    margin-left:20px;
+}
+
+#comment_evaluation{
+    text-align: center;
+}
+
+#button{
+    margin-bottom: 30px;
+}
+
+.comment_evaluation{
+    clear: left;
+}
+
+li span{
+    margin-right:10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#starcount div{
+    margin-top:10px;
+    height: 17px;
+}
+
+.comment_all{
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.comment_all i{
+	text-align:left;
+    color: gold;
+    font-size: 16px;
+}
+
+/* .comment_all p{
+    display: inline-block;
+    color: black;
+}
+
+.comment_all p{
+    margin-left: 10px;
+} */
+
+p.other_comment {
+	text-align:left;
+	display: inline-block;
+	color:black
+}
+
+p.other {
+	text-align:right;
+	color:black;
+}
+
+.comment_all li {
+	border-bottom:dotted;
+	border-bottom-color:black;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+
+
+meter {
+    width:100px;
+    font-size:14px;
+}
+
+#starcount {
+    margin-top:15px;
+}
+
+#starcount li {
+    margin-top: 10px;
+}
+
+#comment_evaluation p {
+	color:black;
+}

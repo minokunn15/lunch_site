@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+#main{
+    height:350px;
+    background-image: url("../images/breakfast.jpeg")
+}
+
+#main h2{
+    width:100%;
+    height:30px;
+    margin-top:20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.form{
+    height:320px;
+    width:100%;
+}
+
+.form ul{
+    margin-top:50px;
+}
+
+.loginform{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-button{
+    margin: 40px auto 10px;
+    display:block;
+}
+
+.newbutton{
+    margin : 40px auto 40px;
+    display:block;
+}
+
+section ul {
+	width:200px;
+}
+
+section.form {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+section li {
+	width:200px;
+}
+
+input#email,input#pass {
+	width:100%;
+}
+
+input.login-button,input.newbutton {
+	text-align:center;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="朝食のススメログインページです。ログインしていろいろな機能をお楽しみください。"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<meta name="viewport" content="width=360,initial-scale=1">
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/login.js"></script>
+<title>ログイン</title>
+</head>
+<body>
+	<header class="header">
+	        <!-- ロゴ -->
+            <div class="logo">
+                <h1><a href="./Controller/Index">朝食のススメ</a></h1>
+            </div>
+            <!-- / ロゴ -->
+            <div class="header-right">
+	            <div class="detail">
+	            	<img src="images/arrow.gif" alt="arrows"><a href="">このサイトについて</a>
+	            </div>
+	            <!-- ナビゲーション -->
+	            <nav id="navigation">
+					<ul>
+						<li><a href="./Controller/Search"><p class="round">記事検索</p></a></li>
+						<li><a href=""><p class="round">ログイン</p></a></li>
+					</ul>
+	            </nav>
+	         </div>
+	</header>
+
+	<section id="main">
+        <article>
+            <h2>ログイン</h2>
+        </article>
+        <section class="form">
+				<form method="POST" action="./Controller/Login">
+					<ul>
+						<li>
+							<label for="email"></label>
+							<input id="email" class="loginform loginformadd" type="email" name="mailAddress" size="20" placeholder="メールアドレス" maxlength="55"/>
+						</li>
+						<li>
+							<label for="pass"></label>
+							<input id="pass" class="loginform loginformpas" type="password" name="password" size="20" placeholder="パスワード" />
+						</li>
+						<li>
+							<input class="login-button" type="submit" name="submit" value="ログインする" />
+						</li>
+					</ul>
+				</form>
+				<form method="POST" action="./Controller/WriterLogin" class="writerLogin">
+					<ul>
+						<li>
+							<label for="emailw"></label>
+							<input id="emailw" class="loginformWadd" type="hidden" name="mailAddress" />
+						</li>
+						<li>
+							<label for="passw"></label>
+							<input id="passw" class="loginformWpas" type="hidden" name="password" />
+						</li>
+						<li>
+							<input type="button" class="newbutton" value="ライターとしてログインする" />
+						</li>
+					</ul>
+				</form>
+        </section>
+    </section>
+
+	<footer id="footer">
+        <div class="footer-left">
+            RECRUITHOLDINGS
+        </div>
+        <div class="footer-right">
+		  <ul>
+			<li><a href="">プライバシーポリシー</a></li>
+			<li><a href="">ご利用規約</a></li>
+			<li><a href="">ヘルプ</a></li>
+			<li><a href="tel:08041113643">ご意見・お問い合わせ</a></li>
+		  </ul>
+        </div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,288 @@
+@CHARSET "UTF-8";
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body,html {
+	height:100%;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+a img {
+    border: 0;
+}
+
+figure {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    color: white;
+    font: 12px verdana, "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+    line-height: 1.5;
+    background-color: ghostwhite;
+    -webkit-text-size-adjust: none;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 375px;
+    min-height: 667px;
+}
+
+h2 {
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+}
+
+
+header{
+	background-color:coral;
+	height:70px;
+    position: relative;
+}
+
+.logo {
+	float: left;
+    width:40%;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.logo h1{
+	font-size: 35px;
+	color:white;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    padding-top:5px;
+}
+
+.header-right{
+	float:right;
+    width:60%
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+
+.detail{
+	float: left;
+	margin-left:20px;
+}
+
+.detail a{
+    color:white;
+    font-size: 10px;
+}
+
+#navigation{
+	clear:left;
+    float:left;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#navigation a{
+    text-decoration: none;
+}
+
+#navigation li{
+	float: left;
+	margin-left: 20px;
+}
+
+
+.round {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 4px;
+    padding: 4px;
+    text-align:center;
+    background-color: firebrick;
+    color: white;
+}
+
+.loginusernav a.round{
+    padding:5px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+#sidr ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidr li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#sidr li a{
+    display: block;
+    border-left: 8px solid #C97556;
+    background-color: #474655;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #E1E2CF;
+    width: 150px;
+    margin: 10px 0px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#sidr li a:hover{
+    border-left: 8px solid #990033;
+    background-color: #474655;
+}
+
+
+
+
+#footer{
+	height: 50px;
+    background-color: coral;
+    color: white;
+}
+
+.footer-left{
+    color:white;
+    float:left;
+    font-size:10px;
+}
+
+.footer-right{
+    float:right;
+}
+
+#footer ul{
+	float: right;
+	margin-right: 10px;
+}
+
+#footer li{
+	float:left;
+	margin-left:20px;
+}
+
+#footer li a{
+    color: white;
+    font-size:10px;
+}

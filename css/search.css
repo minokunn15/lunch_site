@@ -1,0 +1,97 @@
+#search{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#search h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul.tab{
+    display: table;
+    width:100%;
+    height:100px;
+}
+
+ul.tab li{
+    display: table-cell;
+    height:50px;
+    width:150px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+ul.tab li a{
+    display: block;
+    font-size:14px;
+    padding: 10px 0;
+    padding-left:20px;
+    text-decoration: none;
+    background-color: coral;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-left: 5px;
+    color:white;
+}
+
+span{
+    margin-left: 5px;
+}
+
+spaan{
+    margin-left: 28px;
+}
+
+#searchdo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#searchdo button{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height:50px;
+    font-size:14px;
+    background-color: firebrick;
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+#detailsearch li{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#suggest{
+    margin-top:10px;
+    text-align: center;
+}
+
+#freesearch input{
+    text-align: center;
+    margin:auto;
+}
+
+#detailsearch input{
+    text-align: center;
+}
+
+input.freeword{
+    margin-left:10px;
+    display: block;
+}
+
+li.ui-tabs-active a span{
+    font-size: 17px;
+    margin-left:-2px;
+}
+
